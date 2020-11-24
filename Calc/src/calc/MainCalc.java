@@ -75,13 +75,14 @@ public class MainCalc {
 			break;
 		}
 
-		case 6: { // nao implementado raiz
+		case 6: {
 			System.out.println("digite o primeiro numero A dentro da raiz \n");
 			a = ler.nextDouble();
 			System.out.println("digite o segundo numero B (raiz enesima) \n");
 			b = ler.nextDouble();
-			//System.out.println(a + " + " + b + " = " + (a + b));
-			//memoria=
+			Math.pow(a, 1.0 / b);
+			System.out.println(a + " raiz " + b + " = " + (Math.pow(a, 1.0 / b)));
+			memoria = Math.pow(a, 1.0 / b);
 			break;
 		}
 
